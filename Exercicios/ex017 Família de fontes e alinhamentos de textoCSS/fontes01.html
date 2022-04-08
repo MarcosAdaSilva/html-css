@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com CSS</title>
+    <style>
+        body {
+           font-family: arial, helvetica, sans-serif; 
+           /*Medidas Absolutas
+           cm, mm, in, px, pc
+
+           Medidas Relativas
+           em, ex, rem, vw, vh, %
+           16px geralmente = 1em
+           */
+           
+           /* variações de pesos com números; 100, 200, 300 até o 900*/
+           /* variações de peso; lighter, normal, bold e bolder*/
+           /* weight= peso, width= largura, height= altura */
+
+        }
+        h1{
+            font-size: 3em;
+            /* colocando todas as fontes numa única tag.
+            tag => font para fazer o (shorthand font)
+            
+            sequência correta => fonte-style => font-weight => font-size => 
+            font-family
+
+            
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 1em;
+            font-family
+            
+            text-decoration: underline;*/
+
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'work sans';
+        }
+        
+    </style>
+</head>
+<body >
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis pariatur optio mollitia commodi eius iste. Blanditiis itaque assumenda dolor ea delectus illo non placeat, magnam rerum minus cupiditate, veritatis commodi?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam veritatis eligendi quasi odit repudiandae impedit architecto obcaecati quos iusto ut numquam a modi asperiores culpa illum, praesentium expedita sequi animi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda laboriosam officia ullam? Perferendis dignissimos impedit consequatur voluptate quae aut quos assumenda obcaecati laborum voluptatem. Molestiae, aperiam explicabo! Culpa, iusto.</p>
+    <h2>Subtítulo do exercício.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quo quibusdam quis, numquam vitae recusandae laboriosam voluptate voluptas molestias non similique dolorum culpa vel nobis pariatur, aliquid tenetur, nam esse.</p>
+
+    
+</body>
+</html>
